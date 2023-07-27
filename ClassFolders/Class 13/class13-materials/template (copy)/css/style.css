@@ -1,0 +1,39 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header{
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+nav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    
+}
+
+li{
+    list-style: none;
+    display: flex;
+    flex-basis: 150px;  
+
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
